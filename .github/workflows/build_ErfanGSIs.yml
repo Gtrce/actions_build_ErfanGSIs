@@ -51,7 +51,7 @@ jobs:
            sudo ./transfer wet sirius-ab.7z
            sudo rm sirius-ab.7z
            7z a -r sirius-aonly.7z /home/runner/work/actions_build_ErfanGSIs/actions_build_ErfanGSIs/ErfanGSIs/output/*-Aonly-*-ErfanGSI.img
-           sudo ./transfer wet raphael-aonly.7z
+           sudo ./transfer wet sirius-aonly.7z
            sudo rm sirius-aonly.7z
            sudo rm -rf /home/runner/work/actions_build_ErfanGSIs/actions_build_ErfanGSIs/ErfanGSIs/output
 
