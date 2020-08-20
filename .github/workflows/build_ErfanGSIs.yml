@@ -14,8 +14,8 @@ on:
     types: [started]
     
 env:
-  ROM_URL1: https://download.meizu.com/Firmware/Flyme/16s_Pro/8.20.8.12/cn_daily/20200812002122/e3e40802/update.zip
-  ROM_NAME: Flyme
+  ROM_URL1: https://hugeota.d.miui.com/20.8.13/miui_MI8SE_20.8.13_2fe2dc7bcd_10.0.zip
+  ROM_NAME: MIUI
   TZ: Asia/Shanghai
 
 jobs:
