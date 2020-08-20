@@ -55,11 +55,3 @@ jobs:
            sudo rm raphael-aonly.7z
            sudo rm -rf /home/runner/work/actions_build_ErfanGSIs/actions_build_ErfanGSIs/ErfanGSIs/output
 
-       - name: Download Stock Rom & Generate GSI Part 2
-         run: |
-           sudo ./ErfanGSIs/url2GSI.sh $ROM_URL2 $ROM_NAME
-           7z a -r violet-ab.7z /home/runner/work/actions_build_ErfanGSIs/actions_build_ErfanGSIs/ErfanGSIs/output/*-AB-10-*-ErfanGSI.img
-           sudo ./transfer wet violet-ab.7z
-           sudo rm violet-ab.7z
-           7z a -r violet-aonly.7z /home/runner/work/actions_build_ErfanGSIs/actions_build_ErfanGSIs/ErfanGSIs/output/*-Aonly-*-ErfanGSI.img
-           sudo ./transfer wet violet-aonly.7z
