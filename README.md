@@ -9,32 +9,15 @@
 
 ## 附：ErfanGSI 支持的 ROM
 （ROM_NAME里填一摸一样的，下的ROM也要一样！Generic是（类）原生的意思）<br/>
-9 Pie：
-```
-  ColorOS	
-  Flyme
-  Generic
-  MIUI	
-  Moto	
-  Nubia	
-  OneUI	
-  OxygenOS	
-  Pixel	
-  Xperia	
-  ZUI	
-  ZenUI
-```
-
-10:
-```
-  Generic
-  MIUI	
-  OxygenOS
-  Pixel
-```
-11 R：
+### Supported firmware types
 
 ```
-  Generic	
-  Pixel
+Supported types on Android 9:
+Nubia, Moto, OneUI, MIUI, OxygenOS, ZenUI, Generic, Flyme, Pixel, ColorOS, ZUI, Xperia, RazerUI, VOS, RogUI
+
+Supported types on Android 10:
+MIUI, OxygenOS, Generic, Pixel, JoyUI, Moto, ZenUI, ZUI, Flyme, ColorOS, VOS, OneUI, RogUI, Nubia
+
+Supported types on Android 11:
+Generic, Pixel
 ```
