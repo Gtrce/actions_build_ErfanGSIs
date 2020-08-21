@@ -47,11 +47,11 @@ jobs:
          run: |
            sudo ./ErfanGSIs/url2GSI.sh $ROM_URL1 $ROM_NAME
            ls /home/runner/work/actions_build_ErfanGSIs/actions_build_ErfanGSIs/ErfanGSIs/output/
-           7z a -r sirius-ab.7z /home/runner/work/actions_build_ErfanGSIs/actions_build_ErfanGSIs/ErfanGSIs/output/*-AB-10-*-ErfanGSI.img
-           sudo ./transfer wet sirius-ab.7z
-           sudo rm sirius-ab.7z
-           7z a -r sirius-aonly.7z /home/runner/work/actions_build_ErfanGSIs/actions_build_ErfanGSIs/ErfanGSIs/output/*-Aonly-*-ErfanGSI.img
-           sudo ./transfer wet sirius-aonly.7z
-           sudo rm sirius-aonly.7z
+           7z a -r MIUI-ab.7z /home/runner/work/actions_build_ErfanGSIs/actions_build_ErfanGSIs/ErfanGSIs/output/*-AB-10-*-ErfanGSI.img
+           sudo ./transfer wet MIUI-ab.7z
+           sudo rm MIUI-ab.7z
+           7z a -r MIUI-aonly.7z /home/runner/work/actions_build_ErfanGSIs/actions_build_ErfanGSIs/ErfanGSIs/output/*-Aonly-*-ErfanGSI.img
+           sudo ./transfer wet MIUI-aonly.7z
+           sudo rm MIUI-aonly.7z
            sudo rm -rf /home/runner/work/actions_build_ErfanGSIs/actions_build_ErfanGSIs/ErfanGSIs/output
 
